@@ -283,6 +283,6 @@ end
 fprintf('\nthe number of res is %s\n',num2str(size(outputs_x,1)));
 res = [func_num optimal_numbs(func_num),size(outputs_x,1) res];
         
- Print(fun_name,Run,outputs_e,outputs_t,outputs_x,outputs_y);
+% Print(fun_name,Run,outputs_e,outputs_t,outputs_x,outputs_y);
 
 end
